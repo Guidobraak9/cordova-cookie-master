@@ -84,7 +84,7 @@ public class CookieMaster extends CordovaPlugin {
             return true;
         }
 
-        else if (ACTION_CLEAR_COOKIES.equals(action)) {
+        /*else if (ACTION_CLEAR_COOKIES.equals(action)) {
 
             CookieManager cookieManager = CookieManager.getInstance();
 
@@ -99,7 +99,7 @@ public class CookieMaster extends CordovaPlugin {
 
 			callbackContext.success();
             return true;
-        }
+        }*/
 
         callbackContext.error("Invalid action");
         return false;
